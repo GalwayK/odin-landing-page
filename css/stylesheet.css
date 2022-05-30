@@ -1,0 +1,226 @@
+html
+{
+    margin: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    display: inline-flex;
+    width: 100%;
+    height: 5vh;
+    margin: 0px;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links
+{
+    display: inline-flex;
+    gap: 15px;
+}
+
+header a, .firstDiv p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.firstDiv h1 
+{
+    width: 300px;
+}
+
+header p
+{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.heroText
+{
+    flex: 0 1 0;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstDiv
+{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.secondDiv
+{
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdDiv
+{
+    height: 40vh;
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthDiv
+{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer
+{
+    display: inline-flex;
+    width: 100%;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.thirdDiv .quotation
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 70vh;
+    margin: 0px auto;
+    padding: 16px;
+}
+
+.thirdDiv .source
+{
+    text-align: end;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.firstDiv h1
+{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondDiv h1
+{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.fourthDiv .callToAction
+{
+    border-radius: 8px;
+    width: 60vh;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.callHead
+{
+    font-size: 22px;
+}
+
+.callBuy
+{
+    font-size: 16px;
+}
+
+.callButton button 
+{
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: #F9FAF8 solid thin;
+}
+
+.images
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.image 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vh;
+}
+
+.image p
+{
+    text-align: center;
+    width: 20vh;
+}
+
+.images img
+{
+    height:  25vh;
+    width: auto;
+    border-radius: 8px;
+}
+
+.headerImage
+{
+    height: 30vh;
+    width: auto;
+}
+
+button
+{
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 2px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+a:hover
+{
+    cursor: pointer;
+    color: #f68438;
+}
+
+.firstDiv button:hover
+{
+    cursor: pointer;
+    background-color: #f65438;
+}
+
+.callToAction button:hover
+{
+    cursor: pointer;
+    color: #3882F6;
+    background-color: #F9FAF8;
+}
